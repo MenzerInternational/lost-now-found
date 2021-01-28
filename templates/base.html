@@ -1,0 +1,8 @@
+{% block content %}
+
+{% if ufo %}
+    <h1>404: We couldn't find the page you wanted. We found this though...</h1>
+    <img src="{{url_for('static', filename='PurportedUfo.jpg')}}" />
+{% endif %}
+
+{% endblock %}
